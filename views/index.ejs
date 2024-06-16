@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Don</title>
+    <style>
+        .hexagon {
+          width: 30rem;
+          height: 20rem;
+          background-image: url('./img/IMG_0046.jpg');
+          background-size: contain;
+          position: relative;
+          margin: 57.74px 0;
+        }
+        .hexagon:before,
+        .hexagon:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          border-left: 15rem solid transparent;
+          border-right: 15rem solid transparent;
+        }
+        .hexagon:before {
+          top: -5.7rem;
+          border-bottom: 57.74px solid #c8880c;
+        }
+        .hexagon:after {
+          bottom: -57.74px;
+          border-top: 57.74px solid #c8880c;
+        }
+      </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Christian Nii-Gyan</h1>
+            <h3>And I'm a <span class="multiple-text"></span> </h3>
+            <p>Welcome to your programming oasis. Where your digital dreams come to life.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/nii-gyan-christian-43b29b247/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="./img/me6.png"  alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <div class="hexagon"></div>
+            <!-- <img src="./img/IMG_0046.jpg" alt=""> -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>Hi there! I'm Christian Nii-Gyan, a passionate full-stack developer with a knack for turning ideas into digital realities. With 3 years of hands-on experience in programming and a background in computer engineering from the University of Ghana, I've honed my skills to craft seamless solutions across web, mobile, and backend development.</p>
+            <p>Armed with three certificates from FreeCodeCamp in frontend development, data structures and algorithms, and responsive web design, I'm committed to staying at the forefront of technological innovation. Whether it's building intuitive user interfaces, optimizing backend functionality, or tackling complex algorithms, I thrive on solving problems and creating elegant solutions.
+            </p>
+            <p>
+                Beyond coding, I believe in the power of collaboration and communication. I approach each project with a client-centered mindset, working closely with you to understand your unique needs and goals. My mission is simple: to deliver exceptional results that exceed your expectations and propel your digital presence to new heights.
+            </p>
+            <p>When I'm not coding, you can find me exploring new technologies, experimenting with creative side projects, or simply enjoying the great outdoors. Let's connect and embark on a journey to transform your digital vision into reality!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Wed Development</h3>
+                <p>Unlock your digital potential with our web wizardry! From sleek designs to seamless functionality, we'll craft the perfect online home for your brand. Let's turn clicks into customers and dreams into reality. Elevate your online presence with us today!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile' ></i>
+                <h3>Mobile Development</h3>
+                <p>Mobile dreams become reality with my development mastery! From concept to download, I'll sculpt your app into a show-stopping sensation. Seamlessly fusing style and function, I'll make your brand shine on every screen. Ready to conquer the app world? Let's turn your vision into a viral sensation!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-server' ></i>
+                <h3>Backend Development</h3>
+                <p>Enhance your digital dreams with my backend expertise! I specialize in crafting reliable backends for apps and websites, ensuring seamless functionality. Let's work together to streamline your operations and elevate your online presence</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <!-- 29:10 -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./img/project3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Nunket</h4>
+                    <p>Mobile application to showcase and sell creations and services, implemented payment system.</p>
+                    <a href="https://github.com/niigyanchristian/NUNKET-PROJECT"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Questions Bank</h4>
+                    <p>Web app for computer engineering students to access past questions. Facilitated lecturers in uploading materials</p>
+                    <a href="https://questionsbank-35sb.onrender.com"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>AutoUnited</h4>
+                    <p>An e-commerce platform for the sale of vehicle parts and a mediation hub for vehicle-related services and information.</p>
+                    <a href="https://expo.dev//accounts/onedon/projects/autounited/builds/15ddc44c-57ad-42c4-8d01-dad8ea66734e"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Plug World</h4>
+                    <p>Mobile application to showcase and sell creations and services, with no payment system.</p>
+                    <a href="https://github.com/niigyanchristian/Plug-World"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Serminar</h4>
+                    <p>An anonymous question web platform where you can ask, receive, and stay anonymous.</p>
+                    <a href="https://serminar.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./img/project4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Doodle</h4>
+                    <p>Web application where you can showcase and sell your songs and books with ease.</p>
+                    <a href="https://github.com/niigyanchristian/Doodle-Project"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Coyright &copy; 2023 by Nii-Gyan Christian | All Rights Rserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom js -->
+    <script src="/js/script.js"></script>
+</body>
+</html>
