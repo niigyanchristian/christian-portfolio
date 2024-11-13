@@ -53,7 +53,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 // teypedjs
 const typed = new Typed('.multiple-text',{
-    strings: ['Backend Developer','Mobile Developer','YouTuber'],
+    strings: ['Backend Developer','Frontend Developer','Mobile Developer','YouTuber'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
